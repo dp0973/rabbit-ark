@@ -6,8 +6,8 @@ from aiofiles.os import mkdir
 from aiohttp.client import ClientSession
 
 from rabbitark.config import Config
-from rabbitark.dataclass import DownloadInfo
-from rabbitark.request import SessionPoolRequest
+from rabbitark.utils.default_class import DownloadInfo
+from rabbitark.utils.request import SessionPoolRequest
 
 
 class Downloader(SessionPoolRequest):

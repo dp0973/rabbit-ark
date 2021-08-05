@@ -4,9 +4,9 @@ from typing import List, Optional, Tuple
 
 from rabbitark.abc import BaseExtractor
 from rabbitark.config import Config
-from rabbitark.dataclass import DownloadInfo, Image
+from rabbitark.utils.default_class import DownloadInfo, Image
 from rabbitark.rabbitark import RabbitArk
-from rabbitark.request import Request
+from rabbitark.utils.request import Request
 
 
 class HitomiImageModel:

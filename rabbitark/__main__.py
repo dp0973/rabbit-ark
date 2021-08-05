@@ -7,7 +7,7 @@ from asyncio.events import get_event_loop
 from rabbitark.config import Config
 from rabbitark.extractor import load
 from rabbitark.rabbitark import RabbitArk
-from rabbitark.utils import load_cookie_txt
+from rabbitark.utils.utils import load_cookie_txt
 
 logger = logging.getLogger("rabbitark")
 logger.setLevel(logging.DEBUG)

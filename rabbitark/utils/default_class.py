@@ -1,6 +1,6 @@
 from typing import Any
 
-from rabbitark.utils import Optional, split
+from rabbitark.utils.utils import Optional, split
 
 
 class Image:

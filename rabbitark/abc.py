@@ -4,7 +4,7 @@ from typing import Any, Optional
 from aiohttp.client import ClientSession
 
 from rabbitark.config import Config
-from rabbitark.dataclass import DownloadInfo
+from rabbitark.utils.default_class import DownloadInfo
 
 
 class BaseRequest(ABC):
